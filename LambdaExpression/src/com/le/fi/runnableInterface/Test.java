@@ -12,7 +12,7 @@ class MyRunnable implements Runnable {
 
 public class Test {
 
-	@SuppressWarnings("unused")
+	@SuppressWarnings({ "unused" })
 	public static void main(String[] args) {
 		
 		Runnable myRunnable = new MyRunnable();
